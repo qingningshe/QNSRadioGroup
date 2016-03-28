@@ -3,7 +3,8 @@
 #Screenshots 截图
 <img src="/capture/screenshot0.png" />
 #Usage 使用
-*java代码中使用方式与`android.widget.RadioGroup`完全一致
+* java代码中使用方式与`android.widget.RadioGroup`完全一致
+
 `QNSRadioGroup radioGroup = (QNSRadioGroup) findViewById(R.id.qnsRadioGroup);
         radioGroup.setOnCheckedChangeListener(new QNSRadioGroup.OnCheckedChangeListener() {
             @Override
@@ -12,7 +13,9 @@
             }
         });
 `
-*在xml中你可以里面嵌套使用
+
+* 在xml中你可以里面嵌套使用
+
 `<top.qingningshe.qnsradiogroup.library.QNSRadioGroup
         android:id="@+id/qnsRadioGroup"
         android:layout_width="match_parent"
